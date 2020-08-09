@@ -1,0 +1,64 @@
+body {
+    background-image: url(./img/pattern.jpg);
+}
+
+.kotakIndex {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 75px 200px 25px 200px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.kotakAbout {
+    background-color: white;
+    margin: 75px 200px 0px 200px;
+    font-family: 'Segoe UI';
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+nav{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
